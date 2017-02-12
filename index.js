@@ -5,10 +5,10 @@ var hostsFound = 0
 module.exports = function (options) {
 
   var limit = options.limit || 1
-  var port = options.port
-  var path = options.path
-  var signature = options.signature
-  var scanInterval = options.scanInterval
+  var port = options.port || 80
+  var path = options.path || '/'
+  var signature = options.signature || ''
+  var scanInterval = options.scanInterval || 10
   var requestTimeout = options.requestTimeout || 10
   var foundCallback = options.found
   var notFoundCallback = options.notFound
