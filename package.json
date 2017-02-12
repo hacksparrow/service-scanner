@@ -10,6 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/hacksparrow/service-scanner.git"
   },
+  "keywords": [
+    "network",
+    "service",
+    "port",
+    "ip",
+    "scan",
+    "scanner"
+  ],
   "author": "Hage Yaapa <captain@hacksparrow.com>",
   "license": "MIT",
   "bugs": {
