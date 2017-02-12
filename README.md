@@ -28,7 +28,7 @@ The `options` object can have the following properties:
 **Example**
 
 ```js
-const scan = require('./')
+const scan = require('service-scanner')
 const options = {
   port: 3000,
   path: '/secret',
